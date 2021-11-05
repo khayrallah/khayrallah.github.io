@@ -1,0 +1,64 @@
+# jemdoc: addcss{person.css}
+= An Interactive Teaching Tool for Introducing Novices to Machine Translation
+
+[http://cs.jhu.edu/~huda Huda Khayrallah],  [http://www.cs.jhu.edu/~rknowles/  Rebecca Knowles], [http://cs.jhu.edu/~kevinduh/ Kevin Duh],  [http://www.cs.jhu.edu/~post/ Matt Post] \n
+[http://www.clsp.jhu.edu/ Center for Language and Speech Processing]\n
+[http://cs.jhu.edu/ Department of Computer Science]\n
+[https://www.jhu.edu/ The Johns Hopkins University]\n
+
+
+
+== About 
+
+The first step in the research process is developing an understanding of the problem at hand. Novices may be interested in learning about machine translation (MT), but often lack experience and intuition about the task of translation (either by human or machine) and its challenges. The goal of this work is to allow students to interactively discover why MT is an open problem, and encourage them to ask questions, propose solutions, and test intuitions. We present a hands-on activity in which students build and evaluate their own MT systems using curated parallel texts. By having students hand-engineer MT system rules in a simple user interface, which they can then run on real data, they gain intuition about why early MT research took this approach, where it fails, and what features of language make MT a challenging problem even today. Developing translation rules typically strikes novices as an obvious approach that should succeed, but the idea quickly struggles in the face of natural language complexity. This interactive, intuition-building exercise can be augmented by a discussion of state-of-the-art MT techniques and challenges, focusing on areas or aspects of linguistic complexity that the students found difficult. We envision this lesson plan being used in the framework of a larger AI or natural language processing course (where only a small amount of time can be dedicated to MT) or as a standalone activity. We describe and release the tool that supports this lesson, as well as accompanying data.
+
+
+{{<iframe width="840" height="472" src="https://www.youtube.com/embed/wQJv_BKhxk4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}}
+
+You can view a video demo [https://youtu.be/wQJv_BKhxk4 here]. 
+This video demonstrates a user interacting with the system, adding and removing rules and seeing how well their rules perform on different texts.
+
+Note that the video does not contain audio, and this video is speed up so that the viewer does not have to wait while the user types slowly.
+
+Video begins with instruction tab of the translation console.
+
+0:03-0:18 Shows the "Input" tab. We demonstrate switching between sample texts and highlights the "Translate" button. Without any rules added yet, the output is still a copy of the source.
+
+0:18-0:34 Shows interactions with the "Rules" tab, including the addition of the first rule. The user types "vod" into the source side box, then types "the" into the target side translation, then clicks "Add Rule." After adding the rule, the word "vod" is now shown in the output translated into "the."
+
+0:34-0:50 Shows how to delete rules. The user adds a rule ("voo" to "the"), but then realizes that they have made a typo. They delete the rule by clicking the "X" button to the left of the rule and add a corrected rule ("vo" to "the").
+
+0:50-1:26 Shows the addition of several more rules, including one in which two (whitespace-separated) tokens from the source side are translated to a single token on the target side.
+
+1:26-1:36 Shows a return to the "Input" tab, demonstrating that clicking the "Translate" button now applies the rules to each document.
+
+1:36-1:58 Shows a return to the "Rules" tab and the addition of a hierarchical rule ("X bafsi" to "black X"). This rule, when applied, performs translation and reordering.
+
+== Code & Installation Instructions
+The code to run this assessment can be downloaded [mt_tutorial.tar.gz here]. 
+
+
+== Citation
+This work was presented as a poster at the ACM Technical Symposium on Computer Science Education ([https://sigcse2019.sigcse.org/ SIGCSE]). \n
+ If you want to reference it in academic work, please cite it as:
+~~~
+{}{}
+@inproceedings{Khayrallah2019SIGCSE,
+ author = {Khayrallah, Huda and Knowles, Rebecca and Duh, Kevin and Post, Matt},
+ title = {An Interactive Teaching Tool for Introducing Novices to Machine Translation},
+ booktitle = {Proceedings of the 50th ACM Technical Symposium on Computer Science Education},
+ series = {SIGCSE '19},
+ year = {2019},
+ isbn = {978-1-4503-5890-3},
+ location = {Minneapolis, MN, USA},
+ pages = {1276--1276},
+ numpages = {1},
+ url = {http://doi.acm.org/10.1145/3287324.3293840},
+ doi = {10.1145/3287324.3293840},
+ acmid = {3293840},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+~~~
+
+

@@ -1,0 +1,514 @@
+
+%\documentstyle[margin,line,hyperref,color]{res}
+\documentclass[margin,line,hyperref,color]{res}
+\usepackage{fancyhdr}
+\usepackage{imakeidx}
+\usepackage{booktabs}
+\renewcommand{\headrulewidth}{0pt}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[L]{Huda Khayrallah}
+\fancyfoot[C]{\today}
+\fancyfoot[R]{\thepage\ of 8}
+
+\usepackage{xcolor}
+% link color
+%  \definecolor{darkblue}{RGB}{20,61,139}
+  \definecolor{darkblue}{rgb}{0,0,0.5}
+%   \definecolor{darkblue}{rgb}{0, 0.9, 0.4}
+%   \definecolor{darkblue}{rgb}{0, 0, 0.6}
+% \definecolor{darkcandyapplered}{rgb}{0.64, 0.0, 0.0}
+%  \definecolor{darkcandyapplered}{RGB}{0.0, 130, 70}
+
+\definecolor{darkcandyapplered}{HTML}{006400}
+%  \definecolor{darkblue}{HTML}{000099}% already defined in style files
+\usepackage{natbib}
+
+\bibliographystyle{acl_natbib}
+
+\usepackage{bibentry}
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+ % \usepackage[colorlinks,urlcolor=darkblue,breaklinks]{hyperref}
+ \usepackage{hyperref}
+ \hypersetup
+{
+colorlinks=true,
+linkcolor=darkblue,
+urlcolor={darkblue},
+filecolor={darkblue},
+citecolor={darkblue},
+allcolors={darkblue}
+}
+ \usepackage{breakurl} 
+
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+
+
+% Logos
+% =====
+
+\font\attand=cmr7
+%\font\MetafontLogoFont=logo10
+
+\def\PS{{\tt P\small OST\tt S\small CRIPT}}
+\def\ATT{{AT{\attand \&}T}}
+\def\MF{{METAFONT}}
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+\def\AmSTeX{{$\cal A\kern-.1667em\lower.5ex\hbox{$\cal M$}\kern-.125em
+S$-\TeX}}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+
+% custom
+\newcounter{shared-enum}
+
+
+% tighten itemize (less space before/after)
+% also moves it left
+% also changes the bullet
+\usepackage{enumitem}
+\renewcommand\labelitemi{--}
+
+\newenvironment{packed_itemize}{
+\begin{itemize}[leftmargin=1.5em]
+  \setlength{\itemsep}{0pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+
+\begin{document} \sloppy
+
+% \nobibliography*{cv}
+ \nobibliography{Khayrallah_cv,Khayrallah_cv_bold}
+
+\name{Huda Khayrallah}
+
+
+\begin{resume}
+
+%\section{\sc Objective}
+%To do xyz..
+
+
+% TODO: rename pubs
+
+\begin{tabular}{@{\hskip0pt}p{0.69\linewidth}p{0.06\linewidth} p{0.2\linewidth}@{\hskip0pt}}
+  \setlength\tabcolsep{0pt} % default value: 6pt
+Hackerman 226             & \textit{phone:} & +1 (510) 545-6782\\
+3400 N Charles Street     & \textit{email:} & huda@jhu.edu\\
+Baltimore, MD 21218       & \textit{web:}   & \url{cs.jhu.edu/~huda}
+\end{tabular}
+
+
+\section{\sc Education}
+\textbf{Johns Hopkins University} \hfill August 2015 - present\\
+Ph.D. in Computer Science \hfill \textit{Baltimore, MD}\\
+Affiliation: Center for Language and Speech Processing\\
+Advisor: Philipp Koehn
+
+\textbf{Johns Hopkins University} \hfill August 2015 - May 2017\\
+M.S.E. in Computer Science \hfill \textit{Baltimore, MD}
+
+\textbf{University of California, Berkeley } \hfill August 2011 - May 2015\\
+B.A. in Computer Science  \hfill \textit{Berkeley, CA}\\
+Minor in \href{https://als.ugis.berkeley.edu/}{Applied Language Studies}
+
+\section{\sc Awards}
+\textbf{Best Paper Nomination} \hfill 2020\\ 
+West Coast NLP Summit  (\href{https://www.wecnlp.ai/}{WeCNLP})\\
+for: Simulated Multiple Reference Training Improves Low-Resource Machine Translation\\ 
+by: \textbf{Huda Khayrallah}, Brian Thompson, Matt Post, and Philipp Koehn.
+ 
+\textbf{\href{https://www.clsp.jhu.edu/about/jelinek-fellowship/}{Jelinek Fellowship}}
+  \hfill  2019\\
+Johns Hopkins University Center for Language and Speech Processing
+
+\textbf{Outstanding Contribution Award}  \hfill 2018\\
+ Workshop on Neural Machine Translation and Generation (WNMT) \\
+for: On the Impact of Various Types of Noise on Neural Machine Translation \\
+by: \textbf{Huda Khayrallah} and Philipp Koehn.
+
+\textbf{Graduate Research Fellowship Program (GRFP) Honorable Mention}
+  \hfill  2015, 2016, 2017\\
+National Science Foundation
+
+\textbf{Upsilon Pi Epsilon - Computer Science Honors Society}
+  \hfill Inducted December 2012\\
+UC Berkeley Computer Science
+
+
+
+\section{\sc Publications}
+$^\diamond$ indicates a student I mentored.
+$^*$ indicates authors contributed equally.\\
+{\it Corresponding presentations for publications can be found at \href{http://cs.jhu.edu/~huda/}{cs.jhu.edu/\~{ }huda}.\\
+More information can also be found on my \href{https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao}{Google Scholar page}.}
+
+\bibentry{khayrallah-etal-2020-simulated_bold}\\
+{\textcolor{darkcandyapplered}{[Nominated for best paper at the WeCNLP summit]}} 
+
+\bibentry{khayrallah-sedoc-2020-smrt_bold}
+
+\bibentry{bremerman-etal-2020-evaluation_bold}
+
+\bibentry{khayrallah-etal-2020-jhu_bold}\\
+{\textcolor{darkcandyapplered}{[Highest scoring submission in all 5 language pairs.]}}
+
+\bibentry{Thompson+2019EMNLP_bold}
+
+\bibentry{Benton+2019NAACL_bold}
+
+\bibentry{Thompson+2019NAACL_bold}
+
+\bibentry{Hu+2019NAACL_bold}
+
+\bibentry{Khayrallah+2019SIGCSE_bold}
+
+\bibentry{Thompson+2018WMT_bold}
+
+\bibentry{Koehn+2018WMT_bold}
+
+\bibentry{Khayrallah+2018WMT_bold}
+
+\bibentry{Khayrallah+Koehn2018WNMT_bold}\\
+{\textcolor{darkcandyapplered}{[Outstanding Contribution Award]}} \href{https://www.cs.umd.edu/class/spring2020/cmsc828B/schedule/}{[syllabus]}
+
+
+\bibentry{Khayrallah+2018WNMT_bold}
+
+\bibentry{Shearing+2018AMTA_bold}
+
+\bibentry{Khayrallah+2017IJCAI_bold}
+
+\bibentry{Cotterell+2017EMNLP_bold}
+
+\bibentry{Ding+2017WMT_bold}
+
+\bibentry{Gujral+2016AMTA_bold}
+
+\bibentry{Ding+2016WMT_bold}
+
+\bibentry{Khayrallah+2015HRI_bold}
+
+\bibentry{Lewis+2013ICER_bold}
+
+\section{\sc Preprints}
+
+\bibentry{khayrallah-sedoc-2020-measuring_bold}
+
+\bibentry{Zhang+2018arxiv_bold}
+
+
+\section{\sc Research Experience}
+
+
+\textbf{Research Assistant} \hfill August 2015 - present\\
+Johns Hopkins University, Department of Computer Science  \hfill \textit{Baltimore, MD}\\
+Advisor:  Philipp Koehn
+\begin{packed_itemize}
+\item Improving methods for low-resource \& domain adapted machine translation:
+
+\item Developed Simulated Multiple Reference Training (SMRT), a novel MT training method that improves translation performance by approximating the full space of possible translations for each training example using a paraphraser \citep{khayrallah-etal-2020-simulated}.
+\item Conducted analysis on training machine translation on noisy text \citep{Khayrallah+Koehn2018WNMT} and co-organized a shared task on parallel corpus filtering \citep{Koehn+2018WMT}.
+\item Lead participant in yearly DARPA LORELEI low resource MT evaluation (2016-2018). % where I  build MT systems to translate languages such as Uyghur, Tigrinya, Oromo, Sinhala and Kinyarwanda into English in very low resource settings with stark domain shifts (using religious text to translate social media).
+\item Participate in WMT Machine Translation evaluations \citep{Ding+2016WMT,Ding+2017WMT,Khayrallah+2018WMT}.
+\end{packed_itemize}
+
+Project Advisor:  Jo\~ao Sedoc \hfill  December 2019 - Present
+\begin{packed_itemize}
+\item Improving dialog systems with insights from machine translation:
+\item Applied SMRT paraphrastic data augmentation for dialog \citep{khayrallah-sedoc-2020-smrt}.
+\item Conducting analysis on the evaluation of dialog systems \citep{khayrallah-sedoc-2020-measuring}.
+\end{packed_itemize}
+
+
+Project Advisor:  Matt Post  \hfill  January 2020 - May 2020
+\begin{packed_itemize}
+\item Lead participant in JHU submission to the \href{https://sharedtask.duolingo.com/}{Duolingo STAPLE} shared task on Simultaneous Translation And Paraphrase for Language Education at the WNGT workshop at ACL 2020.
+\item Achieved the highest scoring submission in all 5 language pairs \citep{khayrallah-etal-2020-jhu}.
+\end{packed_itemize}
+
+
+Project Advisor:  Kevin Duh  \hfill  September 2017 - December 2018
+\begin{packed_itemize}
+\item Improving methods for domain adaptation in Machine Translation: 
+\item Improved continued training for domain adaptation using a regularized training objective \citep{Khayrallah+2018WNMT}.
+\item Novel analysis of continued training for domain adaptation \citep{Thompson+2018WMT}.
+\item Curriculum learning for neural machine translation \citep{Zhang+2018arxiv}.
+\item Overcoming catastrophic forgetting in continued training using a method for parameter-specific regularization \citep{Thompson+2019NAACL}.
+\end{packed_itemize}
+
+Project Advisors:  Kevin Duh \&  Matt Post\hfill  January 2017 - September 2017
+\begin{packed_itemize}
+\item Built a hybrid MT system that leveraged adequacy and fluency from SMT and NMT to improve performance in domain adaptation \citep{Khayrallah+2017IJCAI}. 
+\end{packed_itemize}
+
+Project Advisor:  Raman Arora \hfill  October 2015 - November 2016
+\begin{packed_itemize}
+\item Developed Deep Generalized Canonical Correlation Analysis, a multiview learning technique that extends prior work beyond two views of data \citep{Benton+2019NAACL}.
+\end{packed_itemize}
+
+
+\textbf{Research Intern} \hfill  June 2019 - August 2019 \\
+Lilt  \hfill \textit{Berlin, Germany}\\
+Supervisors: Patrick Simianer, Joern Wuebker \& John DeNero
+\begin{packed_itemize}
+\item Meta-Learning to improve adaptation for translator-in-the-loop machine translation.
+\end{packed_itemize}
+
+
+\textbf{Undergraduate Research Assistant} \hfill  May 2014 - January 2015\\
+International Computer Science Institute    \hfill \textit{Berkeley, CA}\\
+Supervisor:  Jerome Feldman
+\begin{packed_itemize}
+\item Created a natural language interface for a robot simulator based on Embodied Construction Grammar \citep{khayrallah+2015HRI}. 
+\end{packed_itemize}
+
+
+\textbf{Research Programmer} \hfill  January 2013 - September 2013\\
+International Computer Science Institute    \hfill \textit{Berkeley, CA}\\
+Supervisor: Andreas Stolcke
+\begin{packed_itemize}
+\item Extended a tool for conversational speech processing \& analyzed multi-speaker recordings.
+\end{packed_itemize}
+
+
+
+\textbf{Undergraduate Research Assistant} \hfill May 2012 - September 2012\\
+UC Berkeley Group in Science \& Math Education    \hfill \textit{Berkeley, CA}\\
+Supervisor: Colleen M. Lewis
+\begin{packed_itemize}
+\item Data mining and analysis of student performance on the AP CS exam
+\citep{Lewis+2013ICER}.
+\end{packed_itemize}
+
+
+\section{\sc Teaching \& Mentoring}
+\textbf{Mentor},  CS MS student 
+  \hfill March 2020 - Present \\
+  Johns Hopkins University\\
+  Professor: Matt Post
+   \begin{packed_itemize}
+\item Mentored a University of Maryland, College Park  masters student intern (Jacob Bremerman) working on the \href{https://sharedtask.duolingo.com/}{Duolingo STAPLE} shared task on Simultaneous Translation And Paraphrase for Language Education shared task \citep{khayrallah-etal-2020-jhu}.
+\item Mentored the student on his first-author followup workshop paper \citep{bremerman-etal-2020-evaluation}. 
+ \end{packed_itemize}
+
+\textbf{Guest Lecturer}, \href{http://www.cs.jhu.edu/~huda/classes/AIFall2018.pdf}{Artificial Intelligence}
+  \hfill Fall 2019\\
+  Johns Hopkins University\\
+   Computer Science 601.464/664\\
+  Professors: Benjamin Van Durme, Jo\~ao Sedoc
+    \begin{packed_itemize}
+\item Gave guest lecture: Bayes Nets Independence.
+\end{packed_itemize}
+
+\textbf{Teaching Assistant}, \href{http://mt-class.org/jhu/}{Machine Translation}
+  \hfill Fall 2018\\
+  Johns Hopkins University\\
+   Computer Science 601.468/668\\
+  Professor: Philipp Koehn
+  \begin{packed_itemize}
+\item Teaching Assistant for $\sim$60 student graduate/undergraduate course on Machine Translation. 
+\item Gave guest lectures: EM algorithm for IBM model 1; Neural Networks Language Models; Domain Adaptation;  Non-Parallel Corpora.
+\item Held office hours.
+\item Designed homework assignments.
+\end{packed_itemize}
+
+\textbf{Guest Lecturer}, \href{http://www.cs.jhu.edu/~huda/classes/AIFall2018.pdf}{Artificial Intelligence}
+  \hfill Fall 2018\\
+  Johns Hopkins University\\
+   Computer Science 601.464/664\\
+  Professor: Benjamin Van Durme
+    \begin{packed_itemize}
+\item Gave guest lectures: Bayes Nets Independence; Bayes Nets Inference.
+\end{packed_itemize}
+
+\textbf{Teaching Assistant},  \href{http://www.cs.jhu.edu/~huda/classes/AISpring2018.pdf}{Artificial Intelligence}
+  \hfill Spring 2018\\
+  Johns Hopkins University\\
+   Computer Science 601.464/664\\
+  Professor: Benjamin Van Durme
+      \begin{packed_itemize}
+
+\item Teaching Assistant for $\sim$70 student graduate/undergraduate course on Artificial Intelligence.
+\item Gave guest lectures: Bayes Nets Independence; Bayes Nets Inference.
+\item Held office hours.
+\item Designed \& graded exams. 
+\end{packed_itemize}
+
+
+\textbf{Mentor},  CS BS/MS student 
+  \hfill August 2017 - July 2018 \\
+  Johns Hopkins University\\
+  Professors: David Yarowsky \& Philipp Koehn    
+   \begin{packed_itemize}
+\item Mentored a  undergraduate/masters student (Steven Shearing) working on very 
+low resource machine translation. 
+\item Mentored him during two DARPA LORELEI evaluations and during his research work. 
+ \item Resulted in the student's first-author publication \citep{Shearing+2018AMTA}. 
+ \end{packed_itemize}
+
+
+\textbf{Teaching Assistant},  \href{https://tinyurl.com/mt-16-clsp}{Machine Translation }
+  \hfill June 2016\\
+  Johns Hopkins Summer School on Human Language Technology\\
+    Professors: Matt Post \& Kevin Duh
+      \begin{packed_itemize}
+\item Designed interactive lesson on rule-based machine translation (MT) to teach $\sim$30 graduate/undergraduate  students about MT challenges.
+\end{packed_itemize}
+
+
+\textbf{Co-Instructor}, Explorations in Robotics
+  \hfill Summer 2013\\
+ \href{https://atdp.berkeley.edu/}{UC Berkeley Academic Talent Development Program}
+ \begin{packed_itemize}
+\item Designed and taught 5 weekly 3-hour lessons to 10 middle and high school students about programming and CS Principles in a graphical programming language, along with real world application of computer science.
+\end{packed_itemize}
+
+
+\textbf{Grader}, \href{http://inst.eecs.berkeley.edu/~cs70/su13/}{Discrete Mathematics and Probability Theory} \hfill Summer 2013\\
+UC Berkeley \\
+   Computer Science 70\\
+  Instructor: Tom Watson 
+  \begin{packed_itemize}
+ \item Graded weekly problem sets.
+  \end{packed_itemize}
+
+
+
+\textbf{Lab Assistant}, \href{http://www-inst.eecs.berkeley.edu/~cs61a/fa12/}{Structure and Interpretation of Computer Programs} (CS 1) 
+  \hfill Fall 2012\\
+UC Berkeley\\
+  Computer Science 61A\\
+  Professor: John DeNero
+    \begin{packed_itemize}
+\item Assisted students with programming lab assignments.
+  \end{packed_itemize}
+
+
+\textbf{Lab Assistant}, \href{http://www-inst.eecs.berkeley.edu/~cs61a/sp12/}{Structure and Interpretation of Computer Programs} (CS 1) 
+  \hfill Spring 2012\\
+UC Berkeley\\
+ Computer Science 61A\\
+  Professor: Paul Hilfinger
+      \begin{packed_itemize}
+\item Assisted students with programming lab assignments.
+  \end{packed_itemize}
+
+
+
+\section{\sc Talks}
+
+
+Machine Translation with Diverse Data Sources \hfill September 1, 2019 \\
+Venue: NYU Abu Dhabi Computer Science Seminar \\
+Host: Nizar Habash
+
+Machine Translation with Diverse Data Sources \hfill April 8, 2019 \\
+Venue: University of Pennsylvania Computational Linguistics Seminar\\
+Host: Chris Callison-Burch
+
+Machine Translation with Diverse Data Sources \hfill March 29, 2019 \\
+Venue: Johns Hopkins University Center for Language and Speech Processing Seminar
+
+Continued Training Algorithms \hfill August 9, 2018\\
+Venue:  SCALE 2018 Workshop at Johns Hopkins University 
+
+Neural Lattice Search for Domain Adaptation in Machine Translation  \hfill November 17, 2017\\
+(+ An overview of Machine Translation) \\
+Venue: Johns Hopkins University Center for Language and Speech Processing Seminar
+
+\section{\sc Panel}
+Machine Translation for LoRes:\hfill December 4, 2020\\ Where do we stand and what the future holds? \\
+Venue: \href{https://sites.google.com/view/loresmt/program?authuser=0}{Workshop on Technologies for MT of Low Resource Languages (LoResMT 2020) at AACL}
+
+\section{\sc Invited \\Workshops}
+\href{https://eecs.berkeley.edu/rising-stars-2020}{EECS Rising Stars}  \hfill 2020
+ \begin{packed_itemize}
+\item
+Invited to attend a professional development workshop for senior female PhD students and postdocs in preparation for pursuing academic careers in EE \& CS.
+\item Hosted by UC Berkeley.
+ \end{packed_itemize}
+
+ \href{https://cra.org/cra-wp/grad-cohxort-for-women/}{CRA Grad Cohort} \hfill 2018
+ \begin{packed_itemize}
+\item Invited to attend a sponsored professional  development workshop for junior female graduate students in computer science.
+\item Hosted by the Computing Research Association’s Committee on Widening Participation in Computing Research (CRA-WP).
+ \end{packed_itemize}
+
+\section{\sc Academic \\Service}
+
+\textbf{Program Committees}\\
+ACL 2018, 2020; EMNLP 2018, 2020; WMT 2018-20; IWSLT 2018; NAACL 2019; MT Summit 2019; WiNLP 2019-20; ACL SRW 2020\\
+
+\section{\sc Local\\ Service}
+
+\textbf{Ph.D. Admissions Committee} \hfill  December 2017 - Present \\ 
+Johns Hopkins Center For Language and Speech Processing 
+% \textbf{Ph.D. Admissions Committee} \hfill  December 2017 - Present \\ 
+% Johns Hopkins Center For Language and Speech Processing 
+
+\textbf{Organizer}  \hfill   May 2016 - Present\\
+\href{http://www.statmt.org/jhu/}{Johns Hopkins Machine Translation Reading group}
+\begin{packed_itemize}
+\item Coordinate presenters and scheduling for $\sim$25 faculty and students.
+\end{packed_itemize}
+
+
+\section{\sc Outreach}
+
+\textbf{Mentor}  \hfill   October 2018 - Present\\
+\href{http://blackinai.org/}{Black in AI}
+\begin{packed_itemize}
+\item Run a yearly session on the graduate application process. 
+\item Mentor researcher applying to Ph.D. programs. Suggest programs to consider \& provide feedback on application. 
+\end{packed_itemize}
+
+
+\textbf{Invited Speaker}  \hfill   November 12, 2020\\
+\href{https://sites.google.com/g.hmc.edu/cs-159-fall-2020/schedule}{Harvey Mudd undergraduate NLP course}
+\begin{packed_itemize}
+\item  Spoke to students at a liberal arts college about being a graduate student in NLP, and applying to graduate school. 
+\end{packed_itemize}
+
+% todo: add this? https://decal.berkeley.edu/courses/5347
+
+\textbf{Co-Founder, Webmaster}  \hfill   May 2016 - Present\\
+\href{https://gracejhu.github.io/}{Johns Hopkins Graduate Women in CS \& ECE}
+\begin{packed_itemize}
+\item Organize a weekly lunch to promote cross-departmental community. 
+\item Plan mentoring events for undergraduate students.
+\end{packed_itemize}
+
+
+\textbf{Organizing Committee}\hfill   November 2015 - March 2017 \\ 
+\href{http://nacloweb.org/}{North American Computational Linguistics Olympiad (NACLO)} at \href{http://naclo.clsp.jhu.edu}{Johns Hopkins} 
+\begin{packed_itemize}
+\item Recruited Baltimore area middle and high school students for an international computational linguistics competition. 
+\end{packed_itemize}
+
+\textbf{Advisor, Coordinator}  \hfill   September 2011 - May 2015\\
+\href{https://cs-kickstart.berkeley.edu/}{UC Berkeley CS KickStart}
+\begin{packed_itemize}
+\item CS KickStart is a one week workshop for incoming female freshman that creates a community and build students’ interest and confidence to pursue a CS major.
+\item Led team of students in planning and fundraising for the \$18,000 summer program.
+\item Mentored new leadership and co-author grant proposals (awarded \$10,000 NCWIT grant).
+\end{packed_itemize}
+
+\textbf{Staff Program Director, Event Coordinator }  \hfill   January 2012 - May 2014\\
+\href{https://pioneers.berkeley.edu/}{UC Berkeley Pioneers in Engineering (PiE)}
+\begin{packed_itemize}
+\item  PiE runs a robotics competition, provides a robotics kit that's fully designed and developed by college students, and trains  college student mentors for teams of students from underserved Bay Area high schools.
+\item Managed non-profit incorporation, IT systems, resume book and workshop, staff recruitment and training.
+\item Coordinated 5 all-day events for a \$40,000 robotics competition for  300  high school students, 100 college student mentors and 50 college student staff.
+\end{packed_itemize}
+
+
+\end{resume}
+%\hspace{-3.3cm}\today
+\end{document}
+

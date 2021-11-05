@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="person.css" type="text/css" />
+<title>An Interactive Teaching Tool for Introducing Novices to Machine Translation</title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>An Interactive Teaching Tool for Introducing Novices to Machine Translation</h1>
+</div>
+<p><a href="http://cs.jhu.edu/~huda">Huda Khayrallah</a>,  <a href="http://www.cs.jhu.edu/~rknowles/">Rebecca Knowles</a>, <a href="http://cs.jhu.edu/~kevinduh/">Kevin Duh</a>,  <a href="http://www.cs.jhu.edu/~post/">Matt Post</a> <br />
+<a href="http://www.clsp.jhu.edu/">Center for Language and Speech Processing</a><br />
+<a href="http://cs.jhu.edu/">Department of Computer Science</a><br />
+<a href="https://www.jhu.edu/">The Johns Hopkins University</a><br /></p>
+<h2>About </h2>
+<p>The first step in the research process is developing an understanding of the problem at hand. Novices may be interested in learning about machine translation (MT), but often lack experience and intuition about the task of translation (either by human or machine) and its challenges. The goal of this work is to allow students to interactively discover why MT is an open problem, and encourage them to ask questions, propose solutions, and test intuitions. We present a hands-on activity in which students build and evaluate their own MT systems using curated parallel texts. By having students hand-engineer MT system rules in a simple user interface, which they can then run on real data, they gain intuition about why early MT research took this approach, where it fails, and what features of language make MT a challenging problem even today. Developing translation rules typically strikes novices as an obvious approach that should succeed, but the idea quickly struggles in the face of natural language complexity. This interactive, intuition-building exercise can be augmented by a discussion of state-of-the-art MT techniques and challenges, focusing on areas or aspects of linguistic complexity that the students found difficult. We envision this lesson plan being used in the framework of a larger AI or natural language processing course (where only a small amount of time can be dedicated to MT) or as a standalone activity. We describe and release the tool that supports this lesson, as well as accompanying data.</p>
+<p><iframe width="840" height="472" src="https://www.youtube.com/embed/wQJv_BKhxk4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>You can view a video demo <a href="https://youtu.be/wQJv_BKhxk4">here</a>. 
+This video demonstrates a user interacting with the system, adding and removing rules and seeing how well their rules perform on different texts.</p>
+<p>Note that the video does not contain audio, and this video is speed up so that the viewer does not have to wait while the user types slowly.</p>
+<p>Video begins with instruction tab of the translation console.</p>
+<p>0:03-0:18 Shows the &ldquo;Input&rdquo; tab. We demonstrate switching between sample texts and highlights the &ldquo;Translate&rdquo; button. Without any rules added yet, the output is still a copy of the source.</p>
+<p>0:18-0:34 Shows interactions with the &ldquo;Rules&rdquo; tab, including the addition of the first rule. The user types &ldquo;vod&rdquo; into the source side box, then types &ldquo;the&rdquo; into the target side translation, then clicks &ldquo;Add Rule.&rdquo; After adding the rule, the word &ldquo;vod&rdquo; is now shown in the output translated into &ldquo;the.&rdquo;</p>
+<p>0:34-0:50 Shows how to delete rules. The user adds a rule (&ldquo;voo&rdquo; to &ldquo;the&rdquo;), but then realizes that they have made a typo. They delete the rule by clicking the &ldquo;X&rdquo; button to the left of the rule and add a corrected rule (&ldquo;vo&rdquo; to &ldquo;the&rdquo;).</p>
+<p>0:50-1:26 Shows the addition of several more rules, including one in which two (whitespace-separated) tokens from the source side are translated to a single token on the target side.</p>
+<p>1:26-1:36 Shows a return to the &ldquo;Input&rdquo; tab, demonstrating that clicking the &ldquo;Translate&rdquo; button now applies the rules to each document.</p>
+<p>1:36-1:58 Shows a return to the &ldquo;Rules&rdquo; tab and the addition of a hierarchical rule (&ldquo;X bafsi&rdquo; to &ldquo;black X&rdquo;). This rule, when applied, performs translation and reordering.</p>
+<h2>Code &amp; Installation Instructions</h2>
+<p>The code to run this assessment can be downloaded <a href="mt_tutorial.tar.gz">here</a>. </p>
+<h2>Citation</h2>
+<p>This work was presented as a poster at the ACM Technical Symposium on Computer Science Education (<a href="https://sigcse2019.sigcse.org/">SIGCSE</a>). <br />
+If you want to reference it in academic work, please cite it as:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+@inproceedings{Khayrallah2019SIGCSE,
+ author = {Khayrallah, Huda and Knowles, Rebecca and Duh, Kevin and Post, Matt},
+ title = {An Interactive Teaching Tool for Introducing Novices to Machine Translation},
+ booktitle = {Proceedings of the 50th ACM Technical Symposium on Computer Science Education},
+ series = {SIGCSE '19},
+ year = {2019},
+ isbn = {978-1-4503-5890-3},
+ location = {Minneapolis, MN, USA},
+ pages = {1276--1276},
+ numpages = {1},
+ url = {http://doi.acm.org/10.1145/3287324.3293840},
+ doi = {10.1145/3287324.3293840},
+ acmid = {3293840},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+</pre></div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-03-14 11:01:50 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</div>
+</body>
+</html>
