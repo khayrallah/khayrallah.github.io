@@ -15,17 +15,22 @@ Redmond, WA
 \{firstInital\}\{\lastName}@Microsoft.com\n
 \{firstName\}\{\lastInital}@Berkeley.edu
 
-[\#about About] | [\#publications Publications] | [\#talks Talks] | [\#teaching Teaching] | [Khayrallah_CV.pdf CV] | [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar] 
+[\#about About] | [\#publications Publications] | [\#talks Talks] | [\#teaching Teaching]  | [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar] 
+#[\#about About] | [\#publications Publications] | [\#talks Talks] | [\#teaching Teaching] | [Khayrallah_CV.pdf CV] | [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar] 
 #| [https://www.aclweb.org/anthology/people/h/huda-khayrallah/ ACL Anthology] | [https://www.linkedin.com/in/khayrallah LinkedIn] | [https://github.com/khayrallah GitHub] | [https://orcid.org/0000-0002-2920-6745 ORCID] 
 ~~~
 
 ~~~
 == News
-[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was nominated to for best paper at WeCNLP.\n   [https://youtu.be/OUUYa8l4U1c \[3 min video poster\]] [https://youtu.be/71I7B94bkao \[8 min lightning talk\]] \n
-[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was accepted to EMNLP. This is work with [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], and [http://www.cs.jhu.edu/~phi/ Philipp Koehn].\n
-SMRT Chatbots: Improving Non-Task-Oriented Dialog with Simulated Multiple Reference Training was accepted in findings of EMNLP. This is work with [https://www.stern.nyu.edu/faculty/bio/joao-sedoc João Sedoc].\n
-We had the highest scoring submission in all 5 language pairs to the [https://sharedtask.duolingo.com/ Duolingo Shared Task on Simultaneous Translation and Paraphrase] at [https://sites.google.com/view/wngt20/home WNGT] at [https://acl2020.org/ ACL 2020]. [https://www.aclweb.org/anthology/2020.ngt-1.22/ \[paper\]] [papers/khayrallah2020wngt_staple.pptx \[slides.ppt\]] [papers/khayrallah2020wngt_staple.pdf \[slides.pdf\]]\n
-I was awarded the 2019 [https://www.clsp.jhu.edu/about/jelinek-fellowship/ Jelinek Fellowship]. Thanks CLSP!  \n
+We are hiring interns! please [aka.ms/MTintern apply] if interested.\n
+I am prsenting [http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-short/cdrom/pdf/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at [https://wing-nus.github.io/ssnlp-2023/ SSNLP].\n
+We have a new preprint out: [https://arxiv.org/pdf/2311.08306.pdf On-the-Fly Fusion of Large Language Models and Machine Translation]. This is joint work with Hieu Hoang and Marcin Junczys-Dowmunt.\n
+[http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-short/cdrom/pdf/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] was accepted at AACL. This is joint work with Rohit Jain, Roman Grundkiewicz, and Marcin Junczys-Dowmunt.\n
+#[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was nominated to for best paper at WeCNLP.\n   [https://youtu.be/OUUYa8l4U1c \[3 min video poster\]] [https://youtu.be/71I7B94bkao \[8 min lightning talk\]] \n
+#[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was accepted to EMNLP. This is work with [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], and [http://www.cs.jhu.edu/~phi/ Philipp Koehn].\n
+#SMRT Chatbots: Improving Non-Task-Oriented Dialog with Simulated Multiple Reference Training was accepted in findings of EMNLP. This is work with [https://www.stern.nyu.edu/faculty/bio/joao-sedoc João Sedoc].\n
+#We had the highest scoring submission in all 5 language pairs to the [https://sharedtask.duolingo.com/ Duolingo Shared Task on Simultaneous Translation and Paraphrase] at [https://sites.google.com/view/wngt20/home WNGT] at [https://acl2020.org/ ACL 2020]. [https://www.aclweb.org/anthology/2020.ngt-1.22/ \[paper\]] [papers/khayrallah2020wngt_staple.pptx \[slides.ppt\]] [papers/khayrallah2020wngt_staple.pdf \[slides.pdf\]]\n
+#I was awarded the 2019 [https://www.clsp.jhu.edu/about/jelinek-fellowship/ Jelinek Fellowship]. Thanks CLSP!  \n
 #Slides are available from my invited talk at the NYU Abu Dhabi Computer Science Seminar: [papers/Khayrallah_NYUAD_talk2019Domain+Noise.pptx \[slides.ppt\]] [papers/Khayrallah_NYUAD_talk2019Domain+Noise.pdf \[slides.pdf\]] \n
 #Slides are available from my invited talk at the [https://penn-nlp.github.io/ University of Pennsylvania Computational Linguistics Seminar]: [papers/Khayrallah_CLSP_PennTalks2019Domain+Noise.pptx \[slides.ppt\]] [papers/Khayrallah_CLSP_PennTalks2019Domain+Noise.pdf \[slides.pdf\]] 
 ~~~
@@ -38,8 +43,8 @@ In Summer 2019, I was a research intern at [https://lilt.com Lilt], working on t
 
 I graduated from UC Berkeley with a B.A. in Computer Science in May 2015. I worked with [http://www.cs.hmc.edu/~lewis  Colleen Lewis] on [http://dl.acm.org/citation.cfm?id=2493415 computer science education], [http://www1.icsi.berkeley.edu/~stolcke/ Andreas Stolcke] on tools for speech processing, and [http://www1.icsi.berkeley.edu/~feldman/ Jerry Feldman] on [https://www.icsi.berkeley.edu/pubs/ai/naturallanguage15.pdf natural language understanding].
 
-
-Below are highlights about me; you may also be interested in my full [Khayrallah_CV.pdf CV]. You can also find my work on [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar]. 
+#Below are highlights about me; you can also find my work on [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar]. 
+#Below are highlights about me; you may also be interested in my full [Khayrallah_CV.pdf CV]. You can also find my work on [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar]. 
 
 == Education {{<a name="Education"></a>}}
 The Johns Hopkins University | August 2015 - 2021 
@@ -50,7 +55,9 @@ University of California, Berkeley | August 2011 - May 2015
 - BA, [http://www.cs.berkeley.edu/ Computer Science] - [http://als.ugis.berkeley.edu/ Applied Language Studies Minor]
 
 == Publications  {{<a name="publications"></a>}}
-\* indicates authors contributed equally.
+\* indicates authors contributed equally.\n
+Please see [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar]  for latest publications. 
+
 - Simulated Multiple Reference Training Improves Low-Resource Machine Translation [https://www.wecnlp.ai/wecnlp-2020/schedule \[Nominated for Best Paper at WeCNLP\]] \n
  *Huda Khayrallah*, [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
  Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP) 2020 \n
@@ -211,4 +218,3 @@ November 17, 2017\n
 Huda rymes with CUDA (parallel framework) and [https://upload.wikimedia.org/wikipedia/commons/4/47/En-us-Gouda1.ogg gouda (cheese)]  -- WHO-duh -- \/ˈhuːdə\/\n
 Khayrallah is less scary than it looks! kay-RA-la  -- \/keɪˈɹɑlɑ\/\n
 My pronouns are she/her.
-
