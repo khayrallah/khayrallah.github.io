@@ -22,10 +22,11 @@ Redmond, WA
 
 ~~~
 == News
-We are hiring interns! please [aka.ms/MTintern apply] if interested.\n
-I am prsenting [http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-short/cdrom/pdf/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at [https://wing-nus.github.io/ssnlp-2023/ SSNLP].\n
+I am presenting [http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-short/cdrom/pdf/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at [https://wing-nus.github.io/ssnlp-2023/ SSNLP].\n
 We have a new preprint out: [https://arxiv.org/pdf/2311.08306.pdf On-the-Fly Fusion of Large Language Models and Machine Translation]. This is joint work with Hieu Hoang and Marcin Junczys-Dowmunt.\n
-[http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-short/cdrom/pdf/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] was accepted at AACL. This is joint work with Rohit Jain, Roman Grundkiewicz, and Marcin Junczys-Dowmunt.\n
+Our direct model customization is out for non-English language pairs! I was research lead for this new feature [https://www.microsoft.com/en-us/translator/blog/2023/11/15/custom-translator-direct-model-customization/ (blog post)].\n
+[https://aclanthology.org/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] was accepted at AACL. This is joint work with Rohit Jain, Roman Grundkiewicz, and Marcin Junczys-Dowmunt.\n
+Our new customer-data-adapation is out! I was research lead for this update, which lead to 4.3 BLEU improvement [https://www.microsoft.com/en-us/translator/blog/2023/06/06/microsoft-custom-translator-platform-upgrade-delivering-higher-custom-translation-quality/ (blog post).]
 #[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was nominated to for best paper at WeCNLP.\n   [https://youtu.be/OUUYa8l4U1c \[3 min video poster\]] [https://youtu.be/71I7B94bkao \[8 min lightning talk\]] \n
 #[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was accepted to EMNLP. This is work with [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], and [http://www.cs.jhu.edu/~phi/ Philipp Koehn].\n
 #SMRT Chatbots: Improving Non-Task-Oriented Dialog with Simulated Multiple Reference Training was accepted in findings of EMNLP. This is work with [https://www.stern.nyu.edu/faculty/bio/joao-sedoc João Sedoc].\n
@@ -57,6 +58,50 @@ University of California, Berkeley | August 2011 - May 2015
 == Publications  {{<a name="publications"></a>}}
 \* indicates authors contributed equally.\n
 Please see [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar]  for latest publications. 
+
+-  On-the-fly fusion of large language models and machine translation
+ Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (to appear at NAACL) 2024 \n 
+Hieu Hoang, *Huda Khayrallah*, and Marcin Junczys-Dowmunt.\n
+[https://arxiv.org/abs/2311.08306 \[preprint\]]
+
+- Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness\n 
+Rohit Jain, *Huda Khayrallah*, Roman Grundkiewicz, Marcin Junczys-Dowmunt\n
+Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCAI-AACL) 2023\n 
+[https://aclanthology.org/2023.ijcnlp-short.17/ \[paper\]] [papers/khayrallah2024case_slides.pdf \[slides.pdf\]]
+
+
+- Findings of the WMT 2023 Shared Task on Parallel Data Curation\n 
+Steve Sloto, Brian Thompson, *Huda Khayrallah*, Tobias Domhan, Thamme Gowda, Philipp Koehn\n 
+Proceedings of the Eighth Conference on Machine Translation (WMT) 2023\n
+[https://aclanthology.org/2023.wmt-1.5/ \[paper\]]
+
+
+- Revisiting Locality Sensitive Hashing for Vocabulary Selection in Fast Neural Machine Translation\n 
+Hieu Hoang, Marcin Junczys-dowmunt, Roman Grundkiewicz, *Huda Khayrallah*\n
+Proceedings of the Seventh Conference on Machine Translation (WMT) 2023\n
+[https://aclanthology.org/2022.wmt-1.79/ \[paper\]]
+
+
+- SOTASTREAM: A Streaming Approach to Machine Translation Training\n 
+Proceedings of the 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS) 2023\n
+Matt Post, Thamme Gowda, Roman Grundkiewicz, Huda Khayrallah, Rohit Jain, Marcin Junczys-Dowmunt\n
+[https://aclanthology.org/2023.nlposs-1.13/ \[paper\]]
+
+- Doubly-Trained Adversarial Data Augmentation for Neural Machine Translation\n 
+Weiting Tan, Shuoyang Ding,*Huda Khayrallah*, Philipp Koehn\n 
+Proceedings of the 15th biennial conference of the Association for Machine Translation in the Americas (AMTA) 2022\n 
+[https://aclanthology.org/2022.amta-research.12/ \[paper\]]
+
+- Measuring the ‘I don’t know’ Problem through the Lens of Gricean Quantity\n 
+*Huda Khayrallah*, João Sedoc\n 
+Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL) 2021\n 
+[https://aclanthology.org/2021.naacl-main.450/ \[paper\]] [https://aclanthology.org/2021.naacl-main.450.mp4 \[video\]]
+
+
+- The JHU Submission to the 2020 Duolingo Shared Task on Simultaneous Translation and Paraphrase for Language Education\n
+Huda Khayrallah, Jacob Bremerman, Arya D. McCarthy, Kenton Murray, Winston Wu, Matt Post\n 
+Proceedings of the Fourth Workshop on Neural Generation and Translation at ACL 2020\n 
+[https://aclanthology.org/2020.ngt-1.22/ \[paper\]] [https://slideslive.com/38929836/submission-to-the-2020-duolingo-staple-task \[video\]]
 
 - Simulated Multiple Reference Training Improves Low-Resource Machine Translation [https://www.wecnlp.ai/wecnlp-2020/schedule \[Nominated for Best Paper at WeCNLP\]] \n
  *Huda Khayrallah*, [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
