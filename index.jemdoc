@@ -22,10 +22,11 @@
 
 ~~~
 == News
-I am very proud of two summer interns ([https://h-j-han.github.io/ HyoJung Han] and  [https://www.fe1ixxu.com/ Haoran Xu]) for their ICLR acceptances (see preprints below)!\n
-Hieu Hoang presented  [https://aclanthology.org/2024.findings-naacl.35/  On-the-Fly Fusion of Large Language Models and Machine Translation] at NAACL \n
+Congrats to two summer interns ([https://h-j-han.github.io/ HyoJung Han] and  [https://www.fe1ixxu.com/ Haoran Xu]) for their ICLR acceptances (see preprints below)!\n
+Brian Thompson is presenting [https://aclanthology.org/2024.wmt-1.118/ Improving Statistical Significance in Human Evaluation of Automatic Metrics via Soft Pairwise Accuracy] at WMT. \n
+Hieu Hoang is presenting [https://aclanthology.org/2024.findings-naacl.35/  On-the-Fly Fusion of Large Language Models and Machine Translation] at NAACL \n
 Our direct model customization is out for non-English language pairs! I was research lead for this new feature [https://www.microsoft.com/en-us/translator/blog/2023/11/15/custom-translator-direct-model-customization/ (blog post)].\n
-Rohit Jain presented [https://aclanthology.org/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at AACL.\n
+Rohit Jain is presenting  [https://aclanthology.org/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at AACL.\n
 Our new customer-data-adapation is out! I was research lead for this update, which lead to 4.3 BLEU improvement [https://www.microsoft.com/en-us/translator/blog/2023/06/06/microsoft-custom-translator-platform-upgrade-delivering-higher-custom-translation-quality/ (blog post).]
 #[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was nominated to for best paper at WeCNLP.\n   [https://youtu.be/OUUYa8l4U1c \[3 min video poster\]] [https://youtu.be/71I7B94bkao \[8 min lightning talk\]] \n
 #[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was accepted to EMNLP. This is work with Brian Thompson, Matt Post, and Philipp Koehn.\n
