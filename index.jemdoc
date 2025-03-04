@@ -9,11 +9,11 @@
 #[https://www.jhu.edu/ The Johns Hopkins University]\n
 #{{<img src="email.jpg" alt="firstname at jhu dot edu" height = 18>}}
 
-Microsoft\n
-Redmond, WA
+#Microsoft\n
+#Redmond, WA
 
-\{firstInital\}\{\lastName}@Microsoft.com\n
-\{firstName\}\{\lastInital}@Berkeley.edu
+\{firstName\}\kh@amazon.com\n
+\{firstName\}\{\lastInital}@berkeley.edu
 
 [\#about About] | [\#publications Publications] | [\#talks Talks] | [\#teaching Teaching]  | [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar] 
 #[\#about About] | [\#publications Publications] | [\#talks Talks] | [\#teaching Teaching] | [Khayrallah_CV.pdf CV] | [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar] 
@@ -22,13 +22,13 @@ Redmond, WA
 
 ~~~
 == News
-I am presenting [http://www.afnlp.org/conferences/ijcnlp2023/proceedings/main-short/cdrom/pdf/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at [https://wing-nus.github.io/ssnlp-2023/ SSNLP].\n
-We have a new preprint out: [https://arxiv.org/pdf/2311.08306.pdf On-the-Fly Fusion of Large Language Models and Machine Translation]. This is joint work with Hieu Hoang and Marcin Junczys-Dowmunt.\n
+I am very proud of two summer interns ([https://h-j-han.github.io/ HyoJung Han] and  [https://www.fe1ixxu.com/ Haoran Xu]) for their ICLR acceptances (see preprints below)!\n
+Hieu Hoang presented  [https://aclanthology.org/2024.findings-naacl.35/  On-the-Fly Fusion of Large Language Models and Machine Translation] at NAACL \n
 Our direct model customization is out for non-English language pairs! I was research lead for this new feature [https://www.microsoft.com/en-us/translator/blog/2023/11/15/custom-translator-direct-model-customization/ (blog post)].\n
-[https://aclanthology.org/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] was accepted at AACL. This is joint work with Rohit Jain, Roman Grundkiewicz, and Marcin Junczys-Dowmunt.\n
+Rohit Jain presented [https://aclanthology.org/2023.ijcnlp-short.17.pdf Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness] at AACL.\n
 Our new customer-data-adapation is out! I was research lead for this update, which lead to 4.3 BLEU improvement [https://www.microsoft.com/en-us/translator/blog/2023/06/06/microsoft-custom-translator-platform-upgrade-delivering-higher-custom-translation-quality/ (blog post).]
 #[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was nominated to for best paper at WeCNLP.\n   [https://youtu.be/OUUYa8l4U1c \[3 min video poster\]] [https://youtu.be/71I7B94bkao \[8 min lightning talk\]] \n
-#[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was accepted to EMNLP. This is work with [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], and [http://www.cs.jhu.edu/~phi/ Philipp Koehn].\n
+#[https://arxiv.org/abs/2004.14524 Simulated Multiple Reference Training Improves Low-Resource Machine Translation] was accepted to EMNLP. This is work with Brian Thompson, Matt Post, and Philipp Koehn.\n
 #SMRT Chatbots: Improving Non-Task-Oriented Dialog with Simulated Multiple Reference Training was accepted in findings of EMNLP. This is work with [https://www.stern.nyu.edu/faculty/bio/joao-sedoc João Sedoc].\n
 #We had the highest scoring submission in all 5 language pairs to the [https://sharedtask.duolingo.com/ Duolingo Shared Task on Simultaneous Translation and Paraphrase] at [https://sites.google.com/view/wngt20/home WNGT] at [https://acl2020.org/ ACL 2020]. [https://www.aclweb.org/anthology/2020.ngt-1.22/ \[paper\]] [papers/khayrallah2020wngt_staple.pptx \[slides.ppt\]] [papers/khayrallah2020wngt_staple.pdf \[slides.pdf\]]\n
 #I was awarded the 2019 [https://www.clsp.jhu.edu/about/jelinek-fellowship/ Jelinek Fellowship]. Thanks CLSP!  \n
@@ -37,10 +37,11 @@ Our new customer-data-adapation is out! I was research lead for this update, whi
 ~~~
 
 == About {{<a name="about"></a>}}
-I am a senior researcher at Microsoft, working on the Microsoft Translator team. \n\n
-Previously, I was  a PhD student in [https://www.cs.jhu.edu/ Computer Science] at The Johns Hopkins University (JHU), advised by [http://www.cs.jhu.edu/~phi/ Philipp Koehn]. I was part of the [http://www.clsp.jhu.edu/ Center for Language and Speech Processing (CLSP)] and the [http://www.statmt.org/jhu/ machine translation group].  #I work on Natural Language Processing (NLP), specifically machine translation (MT). I am particularly interested in the challenges arising from low resource and domain adaptation situations. 
+I am a senior applied scientist at Amazon, working on the [https://aws.amazon.com/ai/generative-ai/nova/ AGI team]. 
 
-In Summer 2019, I was a research intern at [https://lilt.com Lilt], working on translator-in-the-loop machine translation. 
+Previously, I was a senior researcher at Microsoft, working on the Microsoft Translator team. Before that, I was PhD student in [https://www.cs.jhu.edu/ Computer Science] at The Johns Hopkins University (JHU), advised by Philipp Koehn. I was part of the [http://www.clsp.jhu.edu/ Center for Language and Speech Processing (CLSP)] and the [http://www.statmt.org/jhu/ machine translation group].  #I work on Natural Language Processing (NLP), specifically machine translation (MT). I am particularly interested in the challenges arising from low resource and domain adaptation situations. 
+
+In summer 2019, I was a research intern at [https://lilt.com Lilt], working on translator-in-the-loop machine translation. 
 
 I graduated from UC Berkeley with a B.A. in Computer Science in May 2015. I worked with [http://www.cs.hmc.edu/~lewis  Colleen Lewis] on [http://dl.acm.org/citation.cfm?id=2493415 computer science education], [http://www1.icsi.berkeley.edu/~stolcke/ Andreas Stolcke] on tools for speech processing, and [http://www1.icsi.berkeley.edu/~feldman/ Jerry Feldman] on [https://www.icsi.berkeley.edu/pubs/ai/naturallanguage15.pdf natural language understanding].
 
@@ -59,10 +60,25 @@ University of California, Berkeley | August 2011 - May 2015
 \* indicates authors contributed equally.\n
 Please see [https://scholar.google.com/citations?user=muJh2XQAAAAJ&hl=en&oi=ao Google Scholar]  for latest publications. 
 
--  On-the-fly fusion of large language models and machine translation
- Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (to appear at NAACL) 2024 \n 
+- Adapters for Altering LLM Vocabularies: What Languages Benefit the Most? \n
+HyoJung Han, Akiko Eriguchi, Haoran Xu, Hieu Hoang, Marine Carpuat, *Huda Khayrallah* \n
+To appear at The International Conference on Learning Representations (ICLR) 2025 \n 
+[https://arxiv.org/abs/2410.09644 \[preprint\]]
+
+- X-ALMA: Plug & Play Modules and Adaptive Rejection for Quality Translation at Scale [https://iclr.cc/virtual/2025/events/spotlight-posters \[ICLR Spotlight – top 5.1% of submitted papers.\]] \n
+Haoran Xu, Kenton Murray, Philipp Koehn, Hieu Hoang, Akiko Eriguchi, *Huda Khayrallah* \n
+To appear at The International Conference on Learning Representations (ICLR) 2025 \n 
+[https://arxiv.org/abs/2410.03115 \[preprint\]] 
+
+-  On-the-Fly Fusion of Large Language Models and Machine Translation \n
+Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) 2024 \n 
 Hieu Hoang, *Huda Khayrallah*, and Marcin Junczys-Dowmunt.\n
-[https://arxiv.org/abs/2311.08306 \[preprint\]]
+[https://aclanthology.org/2024.findings-naacl.35/ \[paper\]]
+
+- Improving Statistical Significance in Human Evaluation of Automatic Metrics via Soft Pairwise Accuracy \n
+Brian Thompson, Nitika Mathur, Daniel Deutsch, and *Huda Khayrallah*\n
+Proceedings of the Ninth Conference on Machine Translation (WMT) 2024\n
+[https://aclanthology.org/2024.wmt-1.118/ \[paper\]]
 
 - Perplexity-Driven Case Encoding Needs Augmentation for CAPITALIZATION Robustness\n 
 Rohit Jain, *Huda Khayrallah*, Roman Grundkiewicz, Marcin Junczys-Dowmunt\n
@@ -88,13 +104,13 @@ Matt Post, Thamme Gowda, Roman Grundkiewicz, Huda Khayrallah, Rohit Jain, Marcin
 [https://aclanthology.org/2023.nlposs-1.13/ \[paper\]]
 
 - Doubly-Trained Adversarial Data Augmentation for Neural Machine Translation\n 
-Weiting Tan, Shuoyang Ding,*Huda Khayrallah*, Philipp Koehn\n 
+Weiting Tan, Shuoyang Ding, *Huda Khayrallah*, Philipp Koehn\n 
 Proceedings of the 15th biennial conference of the Association for Machine Translation in the Americas (AMTA) 2022\n 
 [https://aclanthology.org/2022.amta-research.12/ \[paper\]]
 
 - Measuring the ‘I don’t know’ Problem through the Lens of Gricean Quantity\n 
 *Huda Khayrallah*, João Sedoc\n 
-Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL) 2021\n 
+Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL) 2021\n 
 [https://aclanthology.org/2021.naacl-main.450/ \[paper\]] [https://aclanthology.org/2021.naacl-main.450.mp4 \[video\]]
 
 
@@ -104,123 +120,128 @@ Proceedings of the Fourth Workshop on Neural Generation and Translation at ACL 2
 [https://aclanthology.org/2020.ngt-1.22/ \[paper\]] [https://slideslive.com/38929836/submission-to-the-2020-duolingo-staple-task \[video\]]
 
 - Simulated Multiple Reference Training Improves Low-Resource Machine Translation [https://www.wecnlp.ai/wecnlp-2020/schedule \[Nominated for Best Paper at WeCNLP\]] \n
- *Huda Khayrallah*, [https://thompsonb.github.io/ Brian Thompson], [http://www.cs.jhu.edu/~post/ Matt Post], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
+ *Huda Khayrallah*, Brian Thompson, Matt Post, Philipp Koehn \n
  Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP) 2020 \n
  [https://arxiv.org/abs/2004.14524 \[paper\]] [https://github.com/thompsonb/fairseq-smrt \[code\]] [http://data.statmt.org/smrt \[data\]] [papers/khayrallah2020SMRT_emnlp_slides.pdf \[EMNLP_slides.pdf\]] [papers/khayrallah2020SMRT_emnlp_slides.pptx \[EMNLP_slides.ppt\]] \n
  [https://youtu.be/OUUYa8l4U1c \[3 min WeCNLP video poster\]] [https://youtu.be/71I7B94bkao \[8 min  WeCNLP lightning talk video\]]  [papers/khayrallah2020SMRT_wecnlp_slides.pdf \[wecnlp_slides.pdf\]] [papers/khayrallah2020SMRT_wecnlp_slides.pptx \[WeCNLP_slides.ppt\]] [papers/khayrallah2020SMRT_wecnlp_poster.pdf \[wecnlp_poster.pdf\]] [papers/khayrallah2020SMRT_wecnlp_poster.ppt \[WeCNLP_poster.pptx\]] 
 
  - SMRT Chatbots: Improving Non-Task-Oriented Dialog with Simulated Multiple Reference Training\n
- *Huda Khayrallah*, [https://www.stern.nyu.edu/faculty/bio/joao-sedoc João Sedoc]\n
+ *Huda Khayrallah*,  João Sedoc\n
  Findings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP) 2020 \n
  [https://arxiv.org/abs/2011.00547 \[paper\]] 
 
 - The JHU Submission to the 2020 Duolingo Shared Task on Simultaneous Translation and Paraphrase for Language Education \n 
 [https://sharedtask.duolingo.com/ \[Highest scoring submission in all 5 language pairs\]] \n
-*Huda Khayrallah*, Jacob Bremerman, [https://aryamccarthy.github.io/ Arya D. McCarthy], [http://kentonmurray.com/ Kenton Murray], [https://www.cs.jhu.edu/~winston/ Winston Wu], [http://www.cs.jhu.edu/~post/ Matt Post] \n
+*Huda Khayrallah*, Jacob Bremerman, Arya D. McCarthy, Kenton Murray, Winston Wu, Matt Post \n
 Proceedings of the Fourth Workshop on Neural Generation and Translation at ACL 2020 \n
 [https://www.aclweb.org/anthology/2020.ngt-1.22/ \[paper\]] [https://www.aclweb.org/anthology/2020.ngt-1.22.bib \[bib\]] [papers/khayrallah2020wngt_staple.pptx \[slides.ppt\]] [papers/khayrallah2020wngt_staple.pdf \[slides.pdf\]]
 
 - HABLex: Human Annotated Bilingual Lexicons for Experiments in Machine Translation \n
-[https://thompsonb.github.io/ Brian Thompson],\*  [http://www.cs.jhu.edu/~rknowles/  Rebecca Knowles],\*  [https://www.cs.jhu.edu/~xzhan138/ Xuan Zhang],\*  *Huda Khayrallah*, [http://cs.jhu.edu/~kevinduh/ Kevin Duh], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n 
+Brian Thompson,\*  Rebecca Knowles,\*   Xuan Zhang,\*  *Huda Khayrallah*, Kevin Duh, Philipp Koehn \n 
 Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) 2019 \n
 [https://www.aclweb.org/anthology/D19-1142/ \[paper\]] [https://www.aclweb.org/anthology/D19-1142.bib \[bib\]] [http://www.cs.jhu.edu/~kevinduh/a/hablex2019/ \[data\]]
 
 - Deep Generalized Canonical Correlation Analysis\n
-[https://www.clsp.jhu.edu/people/graduate-students/adrian-benton/ Adrian Benton], *Huda Khayrallah*, Biman Gujral, [http://pages.jh.edu/~dreisin2/ Dee Ann Reisinger], [http://www.cs.jhu.edu/~s.zhang/ Sheng Zhang], [http://www.cs.jhu.edu/~raman/Home.html Raman Arora]\n
+Adrian Benton, *Huda Khayrallah*, Biman Gujral, Dee Ann Reisinger, Sheng Zhang,  Raman Arora\n
 Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP) 2019 at ACL \n
 [https://www.aclweb.org/anthology/W19-4301/ \[paper\]] [https://www.aclweb.org/anthology/W19-4301.bib \[bib\]]  [https://bitbucket.org/adrianbenton/dgcca-py3 \[code\]]
 
 - Overcoming Catastrophic Forgetting During Domain Adaptation of Neural Machine Translation \n
-[https://thompsonb.github.io/ Brian Thompson], Jeremy Gwinnup, *Huda Khayrallah*, [http://cs.jhu.edu/~kevinduh/ Kevin Duh], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n 
+Brian Thompson, Jeremy Gwinnup, *Huda Khayrallah*, Kevin Duh, Philipp Koehn \n 
 Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL) 2019 \n
 [https://www.aclweb.org/anthology/N19-1209/ \[paper\]] [https://www.aclweb.org/anthology/papers/N/N19/N19-1209.bib \[bib\]]
 
 - Improved Lexically-Constrained Decoding for Translation and Monolingual Rewriting \n
-[https://edwdh.github.io J. Edward Hu], *Huda Khayrallah*, Ryan Culkin, [https://www.cs.jhu.edu/~paxia/ Patrick Xia], [https://www.cs.jhu.edu/~tongfei/ Tongfei Chen], [http://www.cs.jhu.edu/~post/ Matt Post], [http://www.cs.jhu.edu/~vandurme/ Benjamin Van Durme] \n
+J. Edward Hu, *Huda Khayrallah*, Ryan Culkin,  Patrick Xia, Tongfei Chen, Matt Post, Benjamin Van Durme \n
 Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL) 2019 \n
 [https://www.aclweb.org/anthology/N19-1090 \[paper\]] [https://www.aclweb.org/anthology/N19-1090.bib \[bib\]] [https://www.aclweb.org/anthology/attachments/N19-1090.Supplementary.pdf \[appendix.pdf\]] [http://decomp.io/projects/parabank/ \[demo & code\]]
 
 
 - An Interactive Teaching Tool for Introducing Novices to Machine Translation \n
-*Huda Khayrallah*, [http://www.cs.jhu.edu/~rknowles/  Rebecca Knowles], [http://cs.jhu.edu/~kevinduh/ Kevin Duh], [http://www.cs.jhu.edu/~post/ Matt Post] \n
+*Huda Khayrallah*, Rebecca Knowles, Kevin Duh, Matt Post \n
 Proceedings of the 50th ACM Technical Symposium on Computer Science Education (SIGCSE) 2019 \n
  [https://doi.org/10.1145/3287324.3293840 \[paper\]] [papers/khayrallah2019SIGCSE.bib \[bib\]] [papers/khayrallah2019SIGCSE_poster.pdf \[poster.pdf\]] [MTTeachingTool.html \[demo & code\]]
 
 
 - Freezing Subnetworks to Analyze Domain Adaptation in Neural Machine Translation \n
-[https://thompsonb.github.io/ Brian Thompson], *Huda Khayrallah*, [https://www3.nd.edu/~aanastas/ Antonios Anastasopoulos], [https://aryamccarthy.github.io/ Arya D. McCarthy], [http://cs.jhu.edu/~kevinduh/ Kevin Duh], Rebecca Marvin, [http://pmcnamee.net/ Paul McNamee], Jeremy Gwinnup, Tim Anderson, [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
+Brian Thompson, *Huda Khayrallah*,  Antonios Anastasopoulos, Arya D. McCarthy, Kevin Duh, Rebecca Marvin, Paul McNamee, Jeremy Gwinnup, Tim Anderson, Philipp Koehn \n
 Proceedings of the Third Conference on Machine Translation (WMT) 2018 at EMNLP \n 
 [http://aclweb.org/anthology/W18-6313/ \[paper\]] [http://aclweb.org/anthology/W18-6313.bib \[bib\]] [papers/thompson2018wmt_slides.pdf \[slides.pdf\]]
 
 - Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering \n
-[http://www.cs.jhu.edu/~phi/ Philipp Koehn], *Huda Khayrallah*, [https://kheafield.com/ Kenneth Heafield], [https://www.dlsi.ua.es/~mlf/ Mikel L. Forcada] \n
+Philipp Koehn, *Huda Khayrallah*, Kenneth Heafield, Mikel L. Forcada \n
 Proceedings of the Third Conference on Machine Translation (WMT) 2018 at EMNLP \n 
 [http://aclweb.org/anthology/W18-6453 \[paper\]] [http://aclweb.org/anthology/W18-6453.bib \[bib\]]
 
 - The JHU Parallel Corpus Filtering Systems for WMT 2018 \n
- *Huda Khayrallah*, [https://www.cs.jhu.edu/~hxu/ Hainan Xu], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
+ *Huda Khayrallah*,  Hainan Xu, Philipp Koehn \n
 Proceedings of the Third Conference on Machine Translation (WMT) 2018 at EMNLP \n 
 [http://aclweb.org/anthology/W18-6479 \[paper\]] [http://aclweb.org/anthology/W18-6479.bib \[bib\]]
 
 - On the Impact of Various Types of Noise on Neural Machine Translation [ \[Outstanding Contribution Award\]] \n
-*Huda Khayrallah*,  [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
+*Huda Khayrallah*,  Philipp Koehn \n
 Proceedings of the Workshop on Neural Machine Translation (WNMT) 2018 at ACL \n 
 [http://aclweb.org/anthology/W18-2709 \[paper\]] [http://aclweb.org/anthology/W18-2709.bib \[bib\]] [papers/khayrallah2018noise_slides.pptx \[slides.ppt\]] [papers/khayrallah2018noise_slides.pdf \[slides.pdf\]] [papers/khayrallah2018noise_poster.pdf \[poster.pdf\]] [http://data.statmt.org/noise/ \[data\]]
 
 
 - Regularized Training Objective for Continued Training for Domain Adaptation in Neural Machine Translation \n
-*Huda Khayrallah*, [https://thompsonb.github.io/ Brian Thompson], [http://cs.jhu.edu/~kevinduh/ Kevin Duh], [http://www.cs.jhu.edu/~phi/ Philipp Koehn] \n
+*Huda Khayrallah*, Brian Thompson, Kevin Duh, Philipp Koehn \n
 Proceedings of the Workshop on Neural Machine Translation (WNMT) 2018 at ACL \n 
 [http://aclweb.org/anthology/W18-2705 \[paper\]]  [http://aclweb.org/anthology/W18-2705.bib \[bib\]]  [papers/khayrallah2018reg_poster.pdf \[poster.pdf\]]
 
 
 - Improving Low Resource Machine Translation using Morphological Glosses \n
-Steven Shearing, [http://ckirov.weebly.com/ Christo Kirov], *Huda Khayrallah*, [http://www.cs.jhu.edu/~yarowsky/ David Yarowsky]\n
+Steven Shearing, Christo Kirov, *Huda Khayrallah*, David Yarowsky\n
 Proceedings of the Conference of the Association for Machine Translation in the Americas (AMTA) 2018 \n
 [http://aclweb.org/anthology/W18-1813 \[paper\]] [https://www.aclweb.org/anthology/W18-1813.bib \[bib\]] 
 
 
 - Neural Lattice Search for Domain Adaptation in Machine Translation \n
-*Huda Khayrallah*, [http://cs.jhu.edu/~gkumar/ Gaurav Kumar], [http://cs.jhu.edu/~kevinduh/ Kevin Duh],  [http://www.cs.jhu.edu/~post/ Matt Post],  [http://www.cs.jhu.edu/~phi/ Philipp Koehn]\n
+*Huda Khayrallah*,  Gaurav Kumar, Kevin Duh,  Matt Post,  Philipp Koehn\n
 Proceedings of the International Joint Conference on Natural Language Processing (IJCNLP) 2017 \n
 [http://aclweb.org/anthology/I17-2004 \[paper\]] [http://aclweb.org/anthology/I17-2004.bib \[bib\]] [https://github.com/khayrallah/nematus-lattice-search \[code\]] [papers/IJCNLP2017-neural_lattice_scoring.pptx \[slides.ppt\]] [papers/IJCNLP2017-neural_lattice_scoring.pdf \[slides.pdf\]]
 
 - The JHU Machine Translation Systems for WMT 2017 \n
-[http://www.cs.jhu.edu/~sding/ Shuoyang Ding], *Huda Khayrallah*,  [http://www.cs.jhu.edu/~phi/ Philipp Koehn], [http://cs.jhu.edu/~gkumar/ Gaurav Kumar], [http://www.cs.jhu.edu/~post/ Matt Post], [http://cs.jhu.edu/~kevinduh/ Kevin Duh]\n
+Shuoyang Ding, *Huda Khayrallah*,  Philipp Koehn,  Gaurav Kumar, Matt Post, Kevin Duh\n
 Proceedings of the Second Conference on Machine Translation (WMT) 2017 \n
 [https://www.aclweb.org/anthology/W17-4724/ \[paper\]] [papers/jhu-wmt-2017.pdf \[poster\]] [https://www.aclweb.org/anthology/W17-4724.bib \[bib\]]
 
 - Paradigm Completion for Derivational Morphology \n
-[https://ryancotterell.github.io/ Ryan Cotterell], Ekaterina Vylomova, *Huda Khayrallah*, [http://ckirov.weebly.com/ Christo Kirov], [http://www.cs.jhu.edu/~yarowsky/ David Yarowsky] \n
+Ryan Cotterell, Ekaterina Vylomova, *Huda Khayrallah*, Christo Kirov, David Yarowsky \n
 Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP) 2016\n
  [https://www.aclweb.org/anthology/D17-1074 \[paper\]]  [https://www.aclweb.org/anthology/D17-1074.bib \[bib\]] [https://github.com/ryancotterell/derviational-paradigms \[data\]]
 
 - Translation of Unknown Words in Low Resource Languages \n
-Biman Gujral, *Huda Khayrallah*, [http://www.cs.jhu.edu/~phi/ Philipp Koehn]\n
+Biman Gujral, *Huda Khayrallah*, Philipp Koehn\n
 Proceedings of the Conference of the Association for Machine Translation in the Americas (AMTA) 2016 \n
 [papers/gujral2016AMTA.pdf \[paper\]] [papers/gujral2016AMTA.bib \[bib\]]  [papers/gujral2016AMTA.pptx \[slides.ppt\]] [papers/gujral2016AMTA_slides.pdf \[slides.pdf\]]
 
 - The JHU Machine Translation Systems for WMT 2016 \n
-[http://www.cs.jhu.edu/~sding/ Shuoyang Ding], [http://cs.jhu.edu/~kevinduh/ Kevin Duh], *Huda Khayrallah*, [http://www.cs.jhu.edu/~phi/ Philipp Koehn], [http://www.cs.jhu.edu/~post/ Matt Post]\n
+Shuoyang Ding, Kevin Duh, *Huda Khayrallah*, Philipp Koehn, Matt Post\n
 Proceedings of the First Conference on Machine Translation (WMT) 2016 \n
 [http://www.aclweb.org/anthology/W/W16/W16-2310 \[paper\]] [papers/jhu-wmt-2016.pdf \[poster\]] [https://www.aclweb.org/anthology/W16-2310.bib \[bib\]]
 
 
 -  Natural Language For Human Robot Interaction\n
-*Huda Khayrallah*, [https://www.linkedin.com/in/sean-trott-66274655 Sean Trott], [http://www1.icsi.berkeley.edu/~feldman/ Jerome Feldman]\n
+*Huda Khayrallah*, Sean Trott, Jerome Feldman\n
 Workshop on Human-Robot Teaming at the ACM/IEEE conference on Human-Robot Interaction (HRI) 2015 \n
 [http://www.bradhayes.info/hri15/papers/2.pdf \[paper\]] [papers/khayrallah2015HRI.bib \[bib\]]
 
 - Mining Data from the AP CS A Exam: Patterns, Non-Patterns, and Replication Failure\n
-[http://blogs.hmc.edu/lewis/ Colleen Lewis], *Huda Khayrallah*, [https://www.linkedin.com/in/aboutamy Amy Tsai]\n
+Colleen Lewis, *Huda Khayrallah*, Amy Tsai\n
 International Computing Education Research Conference (ICER) 2013\n
 [http://dl.acm.org/authorize?N00303 \[paper\]] [papers/lewis2013ICER.bib \[bib\]]
 
 
 === Unrefereed Reports
 - An Empirical Exploration of Curriculum Learning for Neural Machine Translation\n
-[https://www.cs.jhu.edu/~xzhan138/ Xuan Zhang], [http://cs.jhu.edu/~gkumar/ Gaurav Kumar], *Huda Khayrallah*, [http://kentonmurray.com/ Kenton Murray], Jeremy Gwinnup, Marianna J Martindale, [http://pmcnamee.net/ Paul McNamee], [http://cs.jhu.edu/~kevinduh/ Kevin Duh], and [http://www.cs.umd.edu/~marine/ Marine Carpuat] \n
+Xuan Zhang,  Gaurav Kumar, *Huda Khayrallah*, Kenton Murray, Jeremy Gwinnup, Marianna J Martindale, Paul McNamee, Kevin Duh, and Marine Carpuat \n
  [https://arxiv.org/abs/1811.00739 \[paper\]] [https://dblp.uni-trier.de/rec/bibtex/journals/corr/abs-1811-00739 \[bib\]] [https://github.com/kevinduh/sockeye-recipes/tree/master/egs/curriculum \[code\]]
+
+=== Unrefereed Reports
+- How to Choose How to Choose Your Chatbot: A Massively Multi-System MultiReference Data Set for Dialog Metric Evaluation\n
+*Huda Khayrallah*, Zuhaib Akhtar, Edward Cohen, Jyothir S V, João Sedoc
+[https://arxiv.org/abs/2305.14533 \[paper\]]
 
 
 == Talks  {{<a name="talks"></a>}}
@@ -246,8 +267,8 @@ November 17, 2017\n
 [papers/CLSP_TALK_IJCNLP2017-neural_lattice_scoring.pptx \[slides.ppt\]] [papers/CLSP_TALK_IJCNLP2017-neural_lattice_scoring.pdf \[slides.pdf\]]
 
 == Teaching  {{<a name="teaching"></a>}}
-- Teaching Assistant for [http://mt-class.org/jhu/ Machine Translation] (JHU CS 601.468/668) taught by [http://www.cs.jhu.edu/~phi/ Philipp Koehn] -- Fall 2018 \n
-#Teaching Assistant for a graduate \& undergraduate course taught by [http://www.cs.jhu.edu/~phi/ Philipp Koehn]\n
+- Teaching Assistant for [http://mt-class.org/jhu/ Machine Translation] (JHU CS 601.468/668) taught by Philipp Koehn -- Fall 2018 \n
+#Teaching Assistant for a graduate \& undergraduate course taught by Philipp Koehn\n
 #Gave guest lectures \n
 #Held office hours \n
 #Designed and graded homework assignments
